@@ -21,7 +21,7 @@ const getShippingCost = function (country) {
       break;
 
     default:
-      "Sorry, there is no delivery to your country";
+      return "Sorry, there is no delivery to your country";
   }
 
   return `Shipping to ${country} will cost ${price} credits`;
